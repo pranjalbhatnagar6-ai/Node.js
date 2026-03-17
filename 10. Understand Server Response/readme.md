@@ -51,6 +51,7 @@ http
     `);
 
     resp.end();
+    process.exit();
   })
   .listen(4800);
 
