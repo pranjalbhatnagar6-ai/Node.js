@@ -1,0 +1,2 @@
+What are modules and type
+# JS CONSOLE V/S NODE CONSOLE

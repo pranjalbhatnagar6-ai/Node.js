@@ -1,0 +1,14 @@
+What is server Side and client side scripting.
+
+client --Request--> Server 
+client <--Response-- Server
+
+Where we use node JS.
+How NodeJS use JS.
+What we exactly do with NodeJS.
+Why we need APIS
+dB--> business logic --> API --> multiple frontend
+interview Questions
+
+Notes,Code and Playlist.
+thecodingskills.com
