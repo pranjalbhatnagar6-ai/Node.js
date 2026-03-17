@@ -86,3 +86,7 @@ Other developers can easily install the required packages by running:
 
 npm install
 This will read package.json and package-lock.json and install everything needed.
+
+package.json - have details about Projects,like name,external package,version.
+
+package-lock.json - alag se dependencies.
