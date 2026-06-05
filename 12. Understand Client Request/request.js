@@ -1,4 +1,5 @@
 const http = require("http");
+
 http.createServer((req,resp) => {
     console.log(req.method);
     if(req.url == "/"){

@@ -19,7 +19,6 @@ Node.js provides a built-in package called http to create servers.
 You don’t need to install it separately.
 
 
-
 Here’s the basic code to create a server:
 
 const http = require("http");
@@ -51,8 +50,7 @@ The client (browser) sends a request.
 The server responds to that request.
 In Node.js, you can handle this using the http.createServer() method, which accepts a callback function with request and response parameters.
 
-http
-.createServer((req, resp) => {
+http.createServer((req, resp) => {
 resp.write("<h1>Hello, this is Anil Sidhu</h1>");
 resp.end("Hello"); // Ends the response
 })

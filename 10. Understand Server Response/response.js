@@ -2,10 +2,9 @@ const http = require("http");
 
 const age = 21;
 
-http
-  .createServer((req, resp) => {
+http.createServer((req, resp) => {
+  
     resp.setHeader("Content-Type", "text/html");
-
     resp.write(`
       <html>
         <head>
