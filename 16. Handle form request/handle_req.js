@@ -23,7 +23,10 @@ http.createServer((req, resp) => {
 
             req.on('end', () => {
                 let rawData = Buffer.concat(dataBody).toString();
+                // Reading Raw data
                 console.log(rawData);
+                console.log("------")
+                // Reading Readable Data
                 let readableData = queryString.parse(rawData);
                 console.log(readableData);
             })
