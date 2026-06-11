@@ -1,6 +1,6 @@
 function userDataSubmit(req, resp){
     resp.write(
-        `<h1>You can data from here</h1> `
+        `<h1>You can get data from here</h1> `
     )
 }
 
